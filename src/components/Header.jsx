@@ -10,8 +10,8 @@ function Header() {
         <header>
           <img src="./logo192.png" alt="flatline_header" />
           <h1 className="flatline__title">
-            <span className="flat">FlatLine </span>
-            <span className="flat">Agency</span>
+            <span className="flat">Lizard </span>
+            <span className="flat">Global </span>
           </h1>
         </header>
       </article>
