@@ -6,12 +6,12 @@ import 'aos/dist/aos.css';
 function Header() {
   return (
     <HeaderStyle>
-      <article class="leaderboard" data-aos="zoom-in">
+      <article className="flatline_header" data-aos="zoom-in">
         <header>
-          <img src="./logo192.png" alt="Forbes" />
-          <h1 class="leaderboard__title">
-            <span class="leaderboard__title--top">FlatLine </span>
-            <span class="leaderboard__title--bottom">Agency</span>
+          <img src="./logo192.png" alt="flatline_header" />
+          <h1 className="flatline__title">
+            <span className="flat">FlatLine </span>
+            <span className="flat">Agency</span>
           </h1>
         </header>
       </article>
@@ -20,7 +20,7 @@ function Header() {
 }
 
 const HeaderStyle = styled.div`
-  .leaderboard {
+  .flatline_header {
     max-width: 100%;
     width: 100%;
     border-radius: 12px;
@@ -42,7 +42,7 @@ const HeaderStyle = styled.div`
       border-radius: 12px 12px 0 0;
       overflow: hidden;
 
-      .leaderboard__title {
+      .flatline__title {
         position: absolute;
         z-index: 2;
         top: 50%;
@@ -58,7 +58,7 @@ const HeaderStyle = styled.div`
     }
   }
 
-  .leaderboard {
+  .flatline_header {
     box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.4);
   }
 `;

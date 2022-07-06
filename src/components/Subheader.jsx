@@ -7,7 +7,7 @@ function Subheader() {
 <div class="container" data-aos="slide-left" >
   <ul class="responsive-table">
     <li class="table-header">
-      {/* <div class="col col-1" >Select</div> */}
+    
       <div class="col col-2">Image</div>
       <div class="col col-3">Name</div>
       <div class="col col-4">Title</div>

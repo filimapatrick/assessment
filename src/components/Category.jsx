@@ -23,7 +23,7 @@ function Category() {
         <select onChange={(e) => {
           dispatch(Sort(e.target.value))
         }}>
-          <option value="all">All</option>
+         
           {categories.map((category, index) => (
             <option key={index} value={category}>{category}</option>
           ))}
